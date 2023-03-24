@@ -1,0 +1,6 @@
+'firefox_firefox.desktop'
+'org.gnome.Nautilus.desktop'
+'snap-store_ubuntu-software.desktop'
+'yelp.desktop'
+'org.gnome.Terminal.desktop'
+-
