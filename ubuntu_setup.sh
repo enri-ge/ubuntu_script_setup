@@ -4,7 +4,7 @@
 # Created:              March 24, 2023
 # Updated:              March 24, 2023
 # Script Name:          Ubuntu Desktop Setup
-# Script Description:   This script configures some aesthetic GNOME parameters.
+# Script Description:   This script configures some aesthetic GNOME parameters
 
 # *** favorite-apps ***
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'snap-store_ubuntu-software.desktop', 'yelp.desktop', 'org.gnome.Terminal.desktop']"
