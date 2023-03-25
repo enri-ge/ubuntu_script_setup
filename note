@@ -1,0 +1,6 @@
+
+# gsettings reset org.gnome.shell favorite-apps
+
+# dconf read /org/gnome/shell/favorite-apps
+
+# gsettings get org.gnome.shell favorite-apps | awk '{split($0,a,","); print a[3] a[2] a[1]}'
