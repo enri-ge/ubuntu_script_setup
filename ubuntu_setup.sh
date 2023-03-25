@@ -27,6 +27,8 @@ echo ""
 testoBis1=$(echo $testoBis | awk '{print substr($0,1,length($0)-1)}')
 #echo $testoBis1
 
+gsettings reset org.gnome.shell favorite-apps
+
 #gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'snap-store_ubuntu-software.desktop', 'yelp.desktop', 'org.gnome.Terminal.desktop']"
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), $testoBis1]"
 
